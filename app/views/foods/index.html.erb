@@ -1,0 +1,13 @@
+<h1><%= "Total Results: #{@facade.foods_total_count}" %></h1>
+
+<p><% @facade.foods.each do |food| %>
+    <ul>
+        <li><%= "Description: #{food.description}" %></li>
+            <ul>
+                <li><%= "GTIN/UPC Code: #{food.code}" %></li>
+                <li><%= "Brand Owner: #{food.owner}" %></li>
+                <li><%= "Ingredients: #{food.ingredients}" %></li>
+            </ul>
+    </ul>
+<% end %></p>
+                        
