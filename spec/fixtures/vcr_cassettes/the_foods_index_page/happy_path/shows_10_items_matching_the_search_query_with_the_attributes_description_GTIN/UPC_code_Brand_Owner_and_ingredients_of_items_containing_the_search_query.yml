@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       X-Api-Key:
-      - UK1vy6QpwzzEJuVZBG8bv3dDHgZ7dieOdyDFO9Be
+      - X-Api-Key
       User-Agent:
       - Faraday v2.9.0
       Accept-Encoding:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 16 Feb 2024 17:37:41 GMT
+      - Fri, 16 Feb 2024 18:01:37 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Transfer-Encoding:
@@ -33,7 +33,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Age:
-      - '2'
+      - '0'
       Set-Cookie:
       - ApplicationGatewayAffinity=1fdae0f824bf43bf7d058765be26516f; Path=/
       - ApplicationGatewayAffinityCORS=1fdae0f824bf43bf7d058765be26516f; Path=/; SameSite=None;
@@ -46,15 +46,15 @@ http_interactions:
       Via:
       - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
       X-Api-Umbrella-Request-Id:
-      - cdmbvdbiqqpgc65equk0
+      - cdmcabp2nn5ispcp5bhg
       X-Cache:
       - MISS
       X-Ratelimit-Limit:
       - '3600'
       X-Ratelimit-Remaining:
-      - '3585'
+      - '3579'
       X-Vcap-Request-Id:
-      - 47e1dfb0-8b1e-4d2b-4f9d-8416ca707e88
+      - 425912b9-22a8-4a06-78ab-ddd279f911fa
       X-Frame-Options:
       - sameorigin
       X-Content-Type-Options:
@@ -540,7 +540,7 @@ http_interactions:
         from a daily value percentage per serving size measure","derivationId":75,"value":2.8,"foodNutrientSourceId":9,"foodNutrientSourceCode":"12","foodNutrientSourceDescription":"Manufacturer''s
         analytical; partial documentation","rank":6300,"indentLevel":1,"foodNutrientId":26136721,"percentDailyValue":6}],"finalFoodInputFoods":[],"foodMeasures":[],"foodAttributes":[],"foodAttributeTypes":[],"foodVersionIds":[]}],"aggregations":{"dataType":{"Branded":55124,"SR
         Legacy":601,"Survey (FNDDS)":494,"Foundation":9,"Experimental":3},"nutrients":{}}}'
-  recorded_at: Fri, 16 Feb 2024 17:37:42 GMT
+  recorded_at: Fri, 16 Feb 2024 18:01:37 GMT
 - request:
     method: get
     uri: https://api.nal.usda.gov/fdc/v1/foods/search?pageSize=10&query=sweet%20potatoes
@@ -549,7 +549,7 @@ http_interactions:
       string: ''
     headers:
       X-Api-Key:
-      - UK1vy6QpwzzEJuVZBG8bv3dDHgZ7dieOdyDFO9Be
+      - X-Api-Key
       User-Agent:
       - Faraday v2.9.0
       Accept-Encoding:
@@ -562,7 +562,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 16 Feb 2024 17:37:42 GMT
+      - Fri, 16 Feb 2024 18:01:37 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Transfer-Encoding:
@@ -587,15 +587,15 @@ http_interactions:
       Via:
       - https/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
       X-Api-Umbrella-Request-Id:
-      - cdmbvdf2sap6eicic03g
+      - cdmcabsc8grc8f5qh2s0
       X-Cache:
       - MISS
       X-Ratelimit-Limit:
       - '3600'
       X-Ratelimit-Remaining:
-      - '3583'
+      - '3577'
       X-Vcap-Request-Id:
-      - c9d24547-7dac-4801-7024-851142e49273
+      - 8cf0ec48-caa4-4f6a-4d39-3679e90c6fb1
       X-Frame-Options:
       - sameorigin
       X-Content-Type-Options:
@@ -1081,5 +1081,5 @@ http_interactions:
         from a daily value percentage per serving size measure","derivationId":75,"value":2.8,"foodNutrientSourceId":9,"foodNutrientSourceCode":"12","foodNutrientSourceDescription":"Manufacturer''s
         analytical; partial documentation","rank":6300,"indentLevel":1,"foodNutrientId":26136721,"percentDailyValue":6}],"finalFoodInputFoods":[],"foodMeasures":[],"foodAttributes":[],"foodAttributeTypes":[],"foodVersionIds":[]}],"aggregations":{"dataType":{"Branded":55124,"SR
         Legacy":601,"Survey (FNDDS)":494,"Foundation":9,"Experimental":3},"nutrients":{}}}'
-  recorded_at: Fri, 16 Feb 2024 17:37:42 GMT
+  recorded_at: Fri, 16 Feb 2024 18:01:37 GMT
 recorded_with: VCR 6.2.0
